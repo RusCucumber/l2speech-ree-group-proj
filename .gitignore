@@ -1,0 +1,12 @@
+/data/**
+!/data/**/
+!/data/**/.gitkeep
+
+environment/**
+!environment/**/
+!environment/**/.gitkeep
+
+/results/models/*.pt
+
+__pycache__
+.DS_Store
