@@ -10,3 +10,5 @@
 #   universal: false
 
 -e file:.
+python-dotenv==1.2.1
+    # via l2speech-ree-group-proj

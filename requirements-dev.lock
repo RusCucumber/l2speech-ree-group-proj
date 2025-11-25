@@ -15,6 +15,8 @@ mypy-extensions==1.1.0
     # via mypy
 pathspec==0.12.1
     # via mypy
+python-dotenv==1.2.1
+    # via l2speech-ree-group-proj
 ruff==0.14.6
 typing-extensions==4.15.0
     # via mypy
