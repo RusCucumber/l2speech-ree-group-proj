@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -15,3 +16,4 @@ MODEL_RESULT_DIR = RESULT_DIR / "models"
 TABLE_RESULT_DIR = RESULT_DIR / "tables"
 
 load_dotenv(dotenv_path=WORK_DIR / ".env")
+GORILLA_RAW_DATA_DIR = Path(os.getenv("GORILLA_RAW_DATA_PATH")) # type: ignore
