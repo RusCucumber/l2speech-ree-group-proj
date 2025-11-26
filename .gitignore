@@ -2,6 +2,7 @@
 !/data/**/
 !/data/**/.gitkeep
 !/data/external/mosquito_away_pilot_coding/*
+!/data/external/pilot_comparison/*
 
 environment/**
 !environment/**/
