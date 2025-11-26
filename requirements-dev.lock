@@ -161,7 +161,8 @@ notebook==7.5.0
 notebook-shim==0.2.4
     # via jupyterlab
     # via notebook
-numpy==2.3.5
+numpy==1.26.4
+    # via l2speech-ree-group-proj
     # via pandas
     # via soundfile
 overrides==7.7.0
@@ -185,6 +186,8 @@ pexpect==4.9.0
     # via ipython
 platformdirs==4.5.0
     # via jupyter-core
+praat-textgrids==1.4.0
+    # via l2speech-ree-group-proj
 prometheus-client==0.23.1
     # via jupyter-server
 prompt-toolkit==3.0.52
@@ -198,6 +201,8 @@ pure-eval==0.2.3
     # via stack-data
 pycparser==2.23
     # via cffi
+pydub==0.25.1
+    # via l2speech-ree-group-proj
 pygments==2.19.2
     # via ipython
     # via ipython-pygments-lexers
