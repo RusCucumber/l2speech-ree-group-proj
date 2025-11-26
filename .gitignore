@@ -1,6 +1,7 @@
 /data/**
 !/data/**/
 !/data/**/.gitkeep
+!/data/external/mosquito_away_pilot_coding/*
 
 environment/**
 !environment/**/
