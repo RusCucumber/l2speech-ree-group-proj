@@ -40,6 +40,7 @@ certifi==2025.11.12
     # via requests
 cffi==2.0.0
     # via argon2-cffi-bindings
+    # via soundfile
 charset-normalizer==3.4.4
     # via requests
 comm==0.2.3
@@ -54,8 +55,12 @@ executing==2.2.1
     # via stack-data
 fastjsonschema==2.21.2
     # via nbformat
+filelock==3.20.0
+    # via torch
 fqdn==1.5.1
     # via jsonschema
+fsspec==2025.10.0
+    # via torch
 h11==0.16.0
     # via httpcore
 httpcore==1.0.9
@@ -82,6 +87,7 @@ jinja2==3.1.6
     # via jupyterlab
     # via jupyterlab-server
     # via nbconvert
+    # via torch
 json5==0.12.1
     # via jupyterlab-server
 jsonpointer==3.0.0
@@ -133,6 +139,8 @@ matplotlib-inline==0.2.1
     # via ipython
 mistune==3.1.4
     # via nbconvert
+mpmath==1.3.0
+    # via sympy
 nbclient==0.10.2
     # via nbconvert
 nbconvert==7.16.6
@@ -143,13 +151,17 @@ nbformat==5.10.4
     # via nbconvert
 nest-asyncio==1.6.0
     # via ipykernel
+networkx==3.6
+    # via torch
 notebook==7.5.0
     # via l2speech-ree-group-proj
 notebook-shim==0.2.4
     # via jupyterlab
     # via notebook
-numpy==2.3.5
+numpy==1.26.4
+    # via l2speech-ree-group-proj
     # via pandas
+    # via soundfile
 overrides==7.7.0
     # via jupyter-server
 packaging==25.0
@@ -169,6 +181,8 @@ pexpect==4.9.0
     # via ipython
 platformdirs==4.5.0
     # via jupyter-core
+praat-textgrids==1.4.0
+    # via l2speech-ree-group-proj
 prometheus-client==0.23.1
     # via jupyter-server
 prompt-toolkit==3.0.52
@@ -182,6 +196,8 @@ pure-eval==0.2.3
     # via stack-data
 pycparser==2.23
     # via cffi
+pydub==0.25.1
+    # via l2speech-ree-group-proj
 pygments==2.19.2
     # via ipython
     # via ipython-pygments-lexers
@@ -228,15 +244,24 @@ six==1.17.0
     # via rfc3339-validator
 sniffio==1.3.1
     # via anyio
+soundfile==0.13.1
+    # via l2speech-ree-group-proj
 soupsieve==2.8
     # via beautifulsoup4
 stack-data==0.6.3
     # via ipython
+sympy==1.14.0
+    # via torch
 terminado==0.18.1
     # via jupyter-server
     # via jupyter-server-terminals
 tinycss2==1.4.0
     # via bleach
+torch==2.2.0
+    # via l2speech-ree-group-proj
+    # via torchaudio
+torchaudio==2.2.0
+    # via l2speech-ree-group-proj
 tornado==6.5.2
     # via ipykernel
     # via jupyter-client
@@ -244,6 +269,8 @@ tornado==6.5.2
     # via jupyterlab
     # via notebook
     # via terminado
+tqdm==4.67.1
+    # via l2speech-ree-group-proj
 traitlets==5.14.3
     # via ipykernel
     # via ipython
@@ -261,6 +288,7 @@ typing-extensions==4.15.0
     # via beautifulsoup4
     # via ipython
     # via referencing
+    # via torch
 tzdata==2025.2
     # via arrow
     # via pandas

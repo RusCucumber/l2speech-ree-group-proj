@@ -9,6 +9,13 @@ dependencies = [
     "python-dotenv>=1.2.1",
     "pandas>=2.3.3",
     "notebook>=7.5.0",
+    "tqdm>=4.67.1",
+    "torch==2.2.0",
+    "torchaudio==2.2.0",
+    "soundfile>=0.13.1",
+    "numpy==1.26.4",
+    "praat-textgrids>=1.4.0",
+    "pydub>=0.25.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
